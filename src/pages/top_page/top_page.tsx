@@ -1,7 +1,7 @@
 import { d01, iconCup, iconKnife } from "../../assets/images";
 import CircularProgressBar from "./components/circular_progress_bar";
 import HexagonItem from "./components/hexagon_item";
-import LineChart from "./components/line_chart";
+import LineChart from "../../components/line_chart";
 import MealItem from "./components/meal_item";
 import { useFetchLineChart } from "./hooks/useFetchLineChart";
 import { useFetchMealHistory } from "./hooks/useFetchMealHistory";

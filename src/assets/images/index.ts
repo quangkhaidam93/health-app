@@ -14,6 +14,9 @@ import m03 from "./m03.jpg";
 import l02 from "./l02.jpg";
 import s01 from "./s01.jpg";
 import d02 from "./d02.jpg";
+import bodyRecord from "./body_record.png";
+import myExercise from "./my_exercise.png";
+import myDiary from "./my_diary.png";
 
 export {
   logo,
@@ -32,4 +35,7 @@ export {
   l02,
   s01,
   d02,
+  bodyRecord,
+  myExercise,
+  myDiary,
 };
