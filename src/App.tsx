@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import "./App.css";
+import { ColumnPage, ErrorPage, MyRecord, TopPage } from "./pages";
+import { Footer, Header } from "./components";
 
-function App() {
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <TopPage />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/my-record",
+    element: <MyRecord />,
+  },
+  {
+    path: "/column-page",
+    element: <ColumnPage />,
+  },
+]);
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <RouterProvider router={router} />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
