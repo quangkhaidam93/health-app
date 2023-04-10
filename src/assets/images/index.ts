@@ -17,6 +17,14 @@ import d02 from "./d02.jpg";
 import bodyRecord from "./body_record.png";
 import myExercise from "./my_exercise.png";
 import myDiary from "./my_diary.png";
+import column1 from "./column-1.jpg";
+import column2 from "./column-2.jpg";
+import column3 from "./column-3.jpg";
+import column4 from "./column-4.jpg";
+import column5 from "./column-5.jpg";
+import column6 from "./column-6.jpg";
+import column7 from "./column-7.jpg";
+import column8 from "./column-8.jpg";
 
 export {
   logo,
@@ -38,4 +46,12 @@ export {
   bodyRecord,
   myExercise,
   myDiary,
+  column1,
+  column2,
+  column3,
+  column4,
+  column5,
+  column6,
+  column7,
+  column8,
 };
