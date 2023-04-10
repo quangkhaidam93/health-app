@@ -5,7 +5,7 @@ const ErrorPage = () => {
 
   return (
     <div
-      style={{ minHeight: "calc(100vh - 80px)" }}
+      style={{ minHeight: "calc(100vh - 192px)" }}
       className="grid place-content-center"
     >
       <h1 className="text-center font-bold text-lg">Oops!</h1>

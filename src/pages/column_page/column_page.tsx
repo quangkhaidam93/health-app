@@ -15,7 +15,7 @@ const ColumnPage = () => {
       </div>
 
       {recommendedArticles && (
-        <div className="grid grid-rows-2 grid-cols-4 gap-2">
+        <div className="grid grid-rows-2 grid-cols-4 gap-x-2 gap-y-4">
           {recommendedArticles.map((article, index) => (
             <RecommendedArticle
               key={index}

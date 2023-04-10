@@ -25,6 +25,7 @@ import column5 from "./column-5.jpg";
 import column6 from "./column-6.jpg";
 import column7 from "./column-7.jpg";
 import column8 from "./column-8.jpg";
+import iconClose from "./icon_close.png";
 
 export {
   logo,
@@ -54,4 +55,5 @@ export {
   column6,
   column7,
   column8,
+  iconClose,
 };
